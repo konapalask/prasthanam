@@ -1,0 +1,44 @@
+.quote-section {
+  background-color: var(--white);
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 800px;
+}
+
+.quote-icon {
+  font-size: 5rem;
+  color: var(--primary-orange);
+  line-height: 1;
+  margin-bottom: -1rem;
+  font-family: serif;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  color: var(--text-dark);
+}
+
+.quote-text.sanskrit {
+  font-style: italic;
+  font-size: 2rem;
+  color: var(--text-grey);
+}
+
+.quote-source {
+  font-weight: 700;
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 1.3rem;
+  }
+}
